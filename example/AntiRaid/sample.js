@@ -1,4 +1,6 @@
-const {AntiRaid} = require('discord-antiraid');
+const { Client } = require("discord.js");
+const client = new Client()
+const { AntiRaid } = require('discord-antiraid');
 
 const antiraid = new AntiRaid(client, {
     rateLimit: 5,
